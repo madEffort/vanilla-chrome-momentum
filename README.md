@@ -33,14 +33,15 @@
 
 ## File Overview
 
-1. **index.html:** The main HTML file that structures the web application.
-2. **css/style.css:** The CSS file for styling the web application.
-3. **js/background.js:** Handles the functionality for changing the background image.
-4. **js/clock.js:** Manages the clock functionality.
-5. **js/greetings.js:** Manages user login and greeting functionality.
-6. **js/quotes.js:** Displays a random quote.
-7. **js/todos.js:** Manages the to-do list functionality.
-8. **js/weather.js:** Fetches and displays the current weather information.
+1. **`index.html`:** The main HTML file that structures the web application.
+2. **`css/style.css`:** The CSS file for styling the web application.
+3. **`js/config.js`**: Contains the API key used for fetching weather data.
+4. **`js/background.js`:** Handles the functionality for changing the background image.
+5. **`js/clock.js`:** Manages the clock functionality.
+6. **`js/greetings.js`:** Manages user login and greeting functionality.
+7. **`js/quotes.js`:** Displays a random quote.
+8. **`js/todos.js`:** Manages the to-do list functionality.
+9. **`js/weather.js`:** Fetches and displays the current weather information.
 
 ## How To Use
 
@@ -55,7 +56,13 @@ $ git clone https://github.com/madEffort/vanilla-chrome-momentum.git
 $ cd vanilla-chrome-momentum
 ```
 
-3. **Open index.html in your preferred web browser.**
+3. **Set up your API key:**
+- Open the `js/config.js` file and set your API key.
+```bash
+const API_KEY = "open_weather_api_key";
+```
+
+4. **Open `index.html` in your preferred web browser.**
 
 
 ## Download
